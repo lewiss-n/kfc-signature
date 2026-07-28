@@ -1,0 +1,21 @@
+KUKU FOODS EMAIL SIGNATURE PACKAGE
+
+FILES
+1. Email_Signature_Generator.html
+   Open in Chrome or Edge. Edit the details and use Copy clickable signature.
+
+2. Default_Clickable_Signature.html
+   Ready-made version using Dorothy Muthoni's original details. Open it, select the signature, copy, and paste it into Gmail or Outlook.
+
+3. Default_Signature.png
+   A high-resolution, exact visual export from the Illustrator artwork.
+
+FONT HANDLING
+The signature keeps the supplied fonts exactly. Text is rendered into image slices using vector outlines from MS Kentucky Fried Sans Regular and Light. The KUKU FOODS logo retains the original Knockout artwork. Recipients do not need the fonts installed.
+
+INSTALLATION
+Gmail: Settings > See all settings > General > Signature. Paste the copied signature, then save changes.
+Outlook web: Settings > Accounts > Signatures. Paste the copied signature, then save.
+Outlook desktop: File > Options > Mail > Signatures. Create a signature and paste it.
+
+Do not resize the signature after pasting. The visible width is 1000 px and the source images are 2x resolution.
