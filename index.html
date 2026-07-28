@@ -14,11 +14,11 @@
   <div class="head"><h1>Kuku Foods Email Signature Generator</h1><p>Edit the details, then copy or export the signature. The supplied Kentucky Fried Sans letterforms are rendered as vector outlines, so recipients do not need the fonts installed.</p></div>
   <div class="grid">
     <div class="fields">
-      <div class="field"><label for="name">Name</label><input id="name" value="Lewis Ndiritu"></div>
-      <div class="field"><label for="title">Job title</label><input id="title" value="Chief Marketing Officer"></div>
+      <div class="field"><label for="name">Name</label><input id="name" value="Someone"></div>
+      <div class="field"><label for="title">Job title</label><input id="title" value="Brand Manager"></div>
       <div class="field"><label for="address">Address</label><input id="address" value="Nairobi Business Park, Unit A 1st Floor"></div>
       <div class="field"><label for="phone">Phone</label><input id="phone" value="+254 746 012 350"></div>
-      <div class="field"><label for="email">Email</label><input id="email" value="lewis.ndiritu@kfeah.com"></div>
+      <div class="field"><label for="email">Email</label><input id="email" value="someone@kfeah.com"></div>
       <div class="field"><label for="website">Website</label><input id="website" value="www.kfc.ke"></div>
       <div class="actions">
         <button id="copyClickable">Copy clickable signature</button>
@@ -41,7 +41,7 @@ const TEMPLATE='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB9AAAAHDCAIAAADzyB
 const W=2000,H=451,X_LEFT=680,X_RIGHT=1510;
 const ROWS=[0,137,198,218,272,323,374,451];
 const ids=['name','title','address','phone','email','website'];
-const defaults={name:'Dorothy Muthoni',title:'Chief Marketing Officer',address:'Nairobi Business Park, Unit A 1st Floor',phone:'+254 719 518 771',email:'dorothy.muthoni@kfeah.com',website:'www.kfc.ke'};
+const defaults={name:'Someone',title:'Brand Manager',address:'Nairobi Business Park, Unit A 1st Floor',phone:'+254 712 203 760',email:'someone@kfeah.com',website:'www.kfc.ke'};
 const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
 const template=new Image(); template.src=TEMPLATE;
 function glyphSequence(text,font){
